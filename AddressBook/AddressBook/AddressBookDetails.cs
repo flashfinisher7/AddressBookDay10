@@ -40,7 +40,7 @@ namespace AddressBook
         {
             if (contacts.Count > 0)
             {
-                Console.WriteLine("/t /t /t Your Contact List Has");
+                Console.WriteLine("\t \t \t Your Contact List Has");
                 foreach (var x in contacts)
                 {
                     PrintValues(x);
@@ -63,7 +63,7 @@ namespace AddressBook
             Console.WriteLine($"State : {x.state}");
             Console.WriteLine($"Zip Code: {x.zipCode}");
             Console.WriteLine($"Phone Number: {x.phoneNumber}");
-            Console.WriteLine($"Email: {x.email}");
+            Console.WriteLine($"Email: {x.email}\n");
 
         }
         public static void EditDetails()
